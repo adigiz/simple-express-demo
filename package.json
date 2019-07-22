@@ -1,0 +1,27 @@
+{
+  "name": "final_project_express",
+  "version": "1.0.0",
+  "description": "Final Project Demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha ./test --recursive --exit",
+    "sequelize": "node node_modules/.bin/sequelize"
+  },
+  "author": "Adityo Gizwanda",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.42.0",
+    "sequelize-cli": "^5.4.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "mocha": "^6.0.0",
+    "nodemon": "^1.18.9",
+    "sinon": "^7.2.4"
+  }
+}
